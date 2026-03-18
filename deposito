@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int a = 10;
+        int b = 3;
+
+        Console.WriteLine("Soma: " + (a + b));
+        Console.WriteLine("Subtração: " + (a - b));
+        Console.WriteLine("Multiplicação: " + (a * b));
+        Console.WriteLine("Divisão: " + (a / b));
+        Console.WriteLine("Módulo: " + (a % b));
+
+        a++;
+        Console.WriteLine("Após incremento: " + a);
+
+        a--;
+        Console.WriteLine("Após decremento: " + a);
+    }
+}
